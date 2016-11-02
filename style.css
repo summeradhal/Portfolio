@@ -1,0 +1,100 @@
+body{
+   background: url(images/atlanta.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+
+
+#nav{
+
+   background-color: #12130F;
+   
+   width: 100%;
+
+}
+
+#nav a{
+    color: #EAE6E5;
+}
+
+.main-content{
+	max-width:1200px;
+	overflow:hidden;
+	margin: auto;
+	
+}
+
+.left-bar-content{
+	box-sizing:border-box;
+	vertical-align:middle;
+	display:inline-block;
+ 	border-radius: 1%;
+	margin: 20px 20px;
+    /* position: fixed; */
+   	width: 300px;
+    height: 600px;
+    background-color: #041630;
+
+}
+
+.left-bar-contents{
+	color: #ECE6D3;
+}
+
+.profile-image{
+
+	text-align: center;
+	padding: 20px 0;
+}
+
+.profile-image img{
+	border:1px solid #021a40;
+	box-shadow: 10px 10px 5px #052048;
+	border-radius: 50%;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	 
+   
+}
+
+.contact-info{
+	padding: 20px 20px;
+}
+
+.right-bar-content{
+	vertical-align:top;
+	background-color: rgba(0, 0, 0, 0.6);
+	display:inline-block;
+	border-radius: 1%;
+	margin: 20px 0;
+	color: #ECE6D3;
+	width: 70%;
+	height: 700px;
+	
+	
+
+}
+
+.about-me{
+	width: 80%;
+	height: 40%;
+	padding: 20px 50px;
+}
+
+.projects{
+padding: 20px 50px;
+}
+
+.projects img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 10px 10px;
+
+
+}
